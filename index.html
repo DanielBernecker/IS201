@@ -1,3 +1,4 @@
+<!-- Daniel Bernecker, 4/13/22-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Daniel Bernecker, BYU Finance student, personal website" />
         <meta name="author" content="Daniel Bernecker" />
-        <title>Daniel Bernecker - Finance Student</title>
+        <title>Daniel Bernecker - Home</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles/styles.css" rel="stylesheet" />
+        <link href="styles/overwrite.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
@@ -26,22 +28,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 italic underline" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 italic underline" href="html/aboutme.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 italic underline" href="html/tableau.html">Tableau</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('images/home_bg.jpg')">
+        <header class="masthead" style="background-image: url('images/home_bg.jpg')" alt="Super cool background image with glass and lights">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
                             <h1>Daniel Bernecker</h1>
-                            <span class="subheading">Business | Dance | Adventure</span>
+                            <span class="subheading font">Business | Dance | Adventure</span>
                         </div>
                     </div>
                 </div>
@@ -49,20 +50,28 @@
         </header>
         <!-- Video -->
         <div>
-            <h3>Recent Personal Project</h3>
-            <div>
-                <iframe width="960" height="540"
-                src="https://www.youtube.com/watch?v=gP8XV3AtIrw">
-                </iframe>
+            <h2>
+                <p></p><p></p>
+                <div class="txtcenter">
+                    Personal Video Presentation:
+                </div>
+            </h2>
+            <p></p>
+            <div class="txtcenter bspace">
+                <iframe width="871" height="490" src="https://www.youtube.com/embed/YPi7ZoqKTfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video of Daniel giving and oral presentation"></iframe>
             </div>
+            
         </div>
         
+        
         <!-- Main Content-->
+        <!--Im keeping this section of code here but commented out in case I want to use it somewhere else.
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
-                    <div class="post-preview">
+                    <!--
+                        <div class="post-preview">
                         <a href="post.html">
                             <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
                             <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
@@ -74,8 +83,10 @@
                         </p>
                     </div>
                     <!-- Divider-->
+                    <!--
                     <hr class="my-4" />
                     <!-- Post preview-->
+                    <!--
                     <div class="post-preview">
                         <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
                         <p class="post-meta">
@@ -85,79 +96,60 @@
                         </p>
                     </div>
                     <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
+                    
         <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+        <!-- removed some of the padding with "fspace"-->
+        <!--
+            <footer class="border-top fspace">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7 fspace">
+                            <ul class="list-inline text-center">
+                                <li class="list-inline-item">
+                                    <a href="www.linkedin.com/in/daniel-bernecker">
+                                        <span class="fa-stack fa-lg fspace">
+                                            <i class="fas fa-circle fa-stack-2x fspace"></i>
+                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item fspace">
+                                    <a href="#!">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item fspace">
+                                    <a href="#!">
+                                        <span class="fa-stack fa-lg fspace">
+                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- made the footer font non italic-->
+        <!--
+                                <div class="small text-center text-muted fst-italic"> <span class="normtext">Daniel Bernecker | danieljbernecker@gmail.com</span></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </footer>
+                </footer>
+        <!-- new footer-->
+        <div class="wback txtcenter fspace">
+            <span class="col-md-10 col-lg-8 col-xl-7">
+                <a href="https://www.linkedin.com/in/daniel-bernecker-07447313b/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Link" style="width:70px;height:70px;"></a>
+                <a href="https://www.facebook.com/profile.php?id=100007065273582" target="_blank"><img src="images/facebook.png" alt="Facebook Link" style="width:70px;height:70px;"></a>
+                <a href="https://www.instagram.com/danielbernecker11/" target="_blank"><img src="images/instagram1.png" alt="Instagram Link" style="width:90px;height:70px;"></a>
+            </span>
+            <div class="small text-center text-muted fst-italic fspace"> <span class="normtext font blacktxt">Daniel Bernecker | danieljbernecker@gmail.com | 8015001903</span></div>
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
     </body>
 </html>
